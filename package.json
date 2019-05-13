@@ -1,5 +1,5 @@
 {
-  "name": "rmlmapper-java-wrapper",
+  "name": "@rmlio/rmlmapper-java-wrapper",
   "version": "0.0.1",
   "description": "A JavaScript wrapper around the Java RMLMapper.",
   "main": "index.js",
@@ -19,5 +19,9 @@
   },
   "devDependencies": {
     "mocha": "^6.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RMLio/rmlmapper-java-wrapper-js"
   }
 }
