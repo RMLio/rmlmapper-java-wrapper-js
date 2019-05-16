@@ -28,4 +28,24 @@ describe('Success', function() {
     const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
     assert.ok(isomorphic(result.output, expected));
   });
+
+  it('Invalid mapping', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc02/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc02/student.csv', 'utf-8')
+    };
+
+    let error;
+
+    try {
+      await wrapper.execute(rml, sources, false, true);
+    } catch (err) {
+      error = err;
+    }
+
+    assert.strictEqual(error === null, false);
+    assert.strictEqual(error.message, `Error while executing the rules.`);
+    assert.strictEqual(error.log.indexOf('No Triples Maps found.') !== -1, true);
+  });
 });
