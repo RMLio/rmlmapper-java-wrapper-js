@@ -13,6 +13,8 @@ const rmlmapperPath = './rmlmapper.jar';
 const tempFolderPath = './tmp';
 
 describe('Success', function() {
+  this.timeout(5000);
+
   it('Simple CSV mapping', async () => {
     // GIVEN a wrapper and a simple CSV mapping generating one quad
     const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
