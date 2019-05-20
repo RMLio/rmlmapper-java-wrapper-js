@@ -4,8 +4,9 @@ This is a JavaScript library offering a wrapper around the [Java RMLMapper](http
 
 ## Requirements
 - Node.js
-- Java, used to run the RMLMapper
-- [Jar](https://github.com/RMLio/rmlmapper-java/releases) of the RMLMapper
+- Java VM
+- [Jar](https://github.com/RMLio/rmlmapper-java/releases) of the RMLMapper, 
+which you can download via `npm run download:rmlmapper`.
 
 ## Usage
 ```javascript

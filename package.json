@@ -4,7 +4,8 @@
   "description": "A JavaScript wrapper around the Java RMLMapper.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.test.js"
+    "test": "mocha **/*.test.js",
+    "download:rmlmapper": "node ./lib/download-latest-rmlmapper.js"
   },
   "keywords": [
     "rmlmapper",
@@ -13,6 +14,7 @@
   "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>",
   "license": "MIT",
   "dependencies": {
+    "follow-redirects": "^1.7.0",
     "fs-extra": "^7.0.1",
     "n3": "^1.0.5",
     "rdf-isomorphic": "^1.1.0"
