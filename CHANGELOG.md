@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Make wrapper available via require.
 
-[0.0.5]: https://github.com/RMLio/yarrrml-parser/compare/v0.0.4...v0.0.5
-[0.0.4]: https://github.com/RMLio/yarrrml-parser/compare/v0.0.3...v0.0.4
-[0.0.3]: https://github.com/RMLio/yarrrml-parser/compare/v0.0.2...v0.0.3
-[0.0.2]: https://github.com/RMLio/yarrrml-parser/compare/v0.0.1...v0.0.2
+[0.0.5]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.0.4...v0.0.5
+[0.0.4]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.0.3...v0.0.4
+[0.0.3]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.0.2...v0.0.3
+[0.0.2]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.0.1...v0.0.2
