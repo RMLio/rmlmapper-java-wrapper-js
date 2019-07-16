@@ -22,7 +22,7 @@ const sources = {
   'student.csv': fs.readFileSync('./test/tc01/student.csv', 'utf-8')
 };
 
-const result = await wrapper.execute(rml, sources, false, true);
+const result = await wrapper.execute(rml, {sources, generateMetadata: false, serialization: 'turtle'});
 ```
 
 ## License
