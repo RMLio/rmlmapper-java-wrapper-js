@@ -24,7 +24,7 @@ describe('Success', function() {
     };
 
     // WHEN generating the quads without the metadata and expected the results to by an array of quads
-    const result = await wrapper.execute(rml, sources, false, true);
+    const result = await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
 
     // THEN the mapping should succeed and the output should match one of the file
     const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
@@ -41,7 +41,7 @@ describe('Success', function() {
     let error;
 
     try {
-      await wrapper.execute(rml, sources, false, true);
+      await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
     } catch (err) {
       error = err;
     }
@@ -49,5 +49,25 @@ describe('Success', function() {
     assert.strictEqual(error === null, false);
     assert.strictEqual(error.message, `Error while executing the rules.`);
     assert.strictEqual(error.log.indexOf('No Triples Maps found.') !== -1, true);
+  });
+
+  it('Serialization: JSON-LD', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc03/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc03/student.csv', 'utf-8')
+    };
+
+    const result = await wrapper.execute(rml, {sources, serialization: 'jsonld'});
+
+    let error = null;
+
+    try {
+      JSON.parse(result.output);
+    } catch (err) {
+      error = err;
+    }
+
+    assert.ok(error === null);
   });
 });
