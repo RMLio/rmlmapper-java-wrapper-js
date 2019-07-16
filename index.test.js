@@ -70,4 +70,22 @@ describe('Success', function() {
 
     assert.ok(error === null);
   });
+
+  it('Serialization: undefined', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc03/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc03/student.csv', 'utf-8')
+    };
+
+    let error = null;
+
+    try {
+      await wrapper.execute(rml, {sources});
+    } catch (err) {
+      error = err;
+    }
+
+    assert.ok(error === null);
+  });
 });
