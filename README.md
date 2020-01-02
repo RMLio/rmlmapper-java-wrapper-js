@@ -10,7 +10,7 @@ which you can download via `npm run download:rmlmapper`.
 
 ## Usage
 ```javascript
-const RMLMapperWrapper = require('rmlmapper-java-wrapper');
+const RMLMapperWrapper = require('@rmlio/rmlmapper-java-wrapper');
 const fs = require('fs');
 
 const rmlmapperPath = './rmlmapper.jar';
