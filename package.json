@@ -20,7 +20,7 @@
     "rdf-isomorphic": "^1.1.0"
   },
   "devDependencies": {
-    "mocha": "^6.0.2"
+    "mocha": "^6.2.2"
   },
   "repository": {
     "type": "git",

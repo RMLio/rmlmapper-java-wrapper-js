@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Fixed
-- Require in example in README (see [issue 5](https://github.com/RMLio/rmlmapper-java-wrapper-js/issues/5))
+- Require in example in README (see [issue 5](https://github.com/RMLio/rmlmapper-java-wrapper-js/issues/5)).
+- Updated dependency: mocha.
 
 ## [0.1.1] - 2019-07-16
 
