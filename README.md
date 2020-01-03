@@ -25,6 +25,9 @@ const sources = {
 const result = await wrapper.execute(rml, {sources, generateMetadata: false, serialization: 'turtle'});
 ```
 
+Note that you can also provide an array of [quads](http://rdf.js.org/data-model-spec/) to `execute` instead of a string with RDF.
+An example can be found in the tests.
+
 ## License
 
 This code is copyrighted by [Ghent University – imec](http://idlab.ugent.be/) and released under the [MIT license](http://opensource.org/licenses/MIT).
