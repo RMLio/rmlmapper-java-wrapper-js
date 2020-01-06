@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## [1.0.0] - 2020-01-06
+
 ### Added
 - Provide the RML rules as quads (see [issue 6](https://github.com/RMLio/rmlmapper-java-wrapper-js/issues/6)).
 
@@ -48,6 +50,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Make wrapper available via require.
 
+[1.0.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.1.1...v1.0.0
 [0.1.1]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.0.5...v0.1.0
 [0.0.5]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v0.0.4...v0.0.5
