@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Added
+- Provide the RML rules as quads (see [issue 6](https://github.com/RMLio/rmlmapper-java-wrapper-js/issues/6)).
+
 ### Fixed
 - Require in example in README (see [issue 5](https://github.com/RMLio/rmlmapper-java-wrapper-js/issues/5)).
 - Updated dependency: mocha.
