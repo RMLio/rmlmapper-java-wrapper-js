@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Fixed 
+- Fails when asking for metadata as N-Quads  (see [issue 10](https://github.com/RMLio/rmlmapper-java-wrapper-js/issues/10))
+
 ## [1.0.0] - 2020-01-06
 
 ### Added

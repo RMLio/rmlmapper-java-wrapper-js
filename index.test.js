@@ -32,6 +32,23 @@ describe('Success', function() {
     assert.ok(isomorphic(result.output, expected));
   });
 
+  it('Simple CSV mapping with metadata', async () => {
+    // GIVEN a wrapper and a simple CSV mapping generating one quad
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc01/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc01/student.csv', 'utf-8')
+    };
+
+    // WHEN generating the quads without the metadata and expected the results to by an array of quads
+    const result = await wrapper.execute(rml, {sources, generateMetadata: true, asQuads: true});
+
+    // THEN the mapping should succeed and the output should match one of the file
+    const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
+    assert.ok(isomorphic(result.output, expected));
+    assert.ok(result.metadata.length > 0);
+  });
+
   it('Invalid mapping', async () => {
     const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
     const rml = fs.readFileSync('./test/tc02/mapping.ttl', 'utf-8');
