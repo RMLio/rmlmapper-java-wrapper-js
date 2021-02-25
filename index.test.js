@@ -107,7 +107,7 @@ describe('Success', function() {
     assert.ok(error === null);
   });
 
-  it('Input: array of quads', () => {
+  it('Input: array of quads', done => {
     // GIVEN a wrapper and a simple CSV mapping generating one quad
     const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
     const rml = fs.readFileSync('./test/tc01/mapping.ttl', 'utf-8');
@@ -128,6 +128,33 @@ describe('Success', function() {
         // THEN the mapping should succeed and the output should match one of the file
         const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
         assert.ok(isomorphic(result.output, expected));
+        done();
+      }
+    });
+  });
+
+  it('Add Java VM options', done => {
+    // GIVEN a wrapper and a simple CSV mapping generating one quad
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true, {'Dfile.encoding': 'UTF-8'});
+    const rml = fs.readFileSync('./test/tc04/mapping.ttl', 'utf-8');
+    const parser = new N3.Parser();
+    const rmlQuads = [];
+
+    parser.parse(rml, async (error, quad) => {
+      if (quad) {
+        rmlQuads.push(quad);
+      } else {
+        const sources = {
+          'student.csv': fs.readFileSync('./test/tc04/student.csv', 'utf-8')
+        };
+
+        // WHEN generating the quads without the metadata and expected the results to by an array of quads
+        const result = await wrapper.execute(rmlQuads, {sources, generateMetadata: false, asQuads: true});
+
+        // THEN the mapping should succeed and the output should match one of the file
+        const expected = await strToQuads(fs.readFileSync('./test/tc04/output.nq', 'utf-8'));
+        assert.ok(isomorphic(result.output, expected));
+        done();
       }
     });
   });

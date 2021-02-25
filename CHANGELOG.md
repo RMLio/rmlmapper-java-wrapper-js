@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Added
+- Possibility to set Java VM option
+
 ## [1.0.1] - 2020-05-13
 
 ### Fixed 
