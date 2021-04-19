@@ -158,4 +158,32 @@ describe('Success', function() {
       }
     });
   });
+
+  it('Parameter: functions', done => {
+    // GIVEN a wrapper, a JSON input, and an additional function
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc05/mapping.ttl', 'utf-8');
+    const parser = new N3.Parser();
+    const rmlQuads = [];
+
+    parser.parse(rml, async (error, quad) => {
+      if (quad) {
+        rmlQuads.push(quad);
+      } else {
+        const sources = {
+          'message.json': fs.readFileSync('./test/tc05/message.json', 'utf-8')
+        };
+        const fnoStr = fs.readFileSync('./test/tc05/all_functions.nq', 'utf-8');
+
+        // WHEN generating the quads with additional functions as parameter
+        const result = await wrapper.execute(rmlQuads, {sources, generateMetadata: false, asQuads: true, fno: fnoStr});
+
+        // THEN the mapping should succeed and the output should match one of the file
+        const expected = await strToQuads(fs.readFileSync('./test/tc05/output.nq', 'utf-8'));
+        assert.ok(isomorphic(result.output, expected));
+        done();
+      }
+    });
+
+  });
 });
