@@ -173,7 +173,7 @@ describe('Success', function() {
         const sources = {
           'message.json': fs.readFileSync('./test/tc05/message.json', 'utf-8')
         };
-        const fnoStr = fs.readFileSync('./test/tc05/all_functions.nq', 'utf-8');
+        const fnoStr = fs.readFileSync('./test/tc05/functions_all.nt', 'utf-8');
 
         // WHEN generating the quads with additional functions as parameter
         const result = await wrapper.execute(rmlQuads, {sources, generateMetadata: false, asQuads: true, fno: fnoStr});
