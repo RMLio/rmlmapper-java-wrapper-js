@@ -1,0 +1,850 @@
+_:f2629c190f34f4f94ac3498bb25f20d5eb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoding> <https://w3id.org/function/ontology#name> "encoding" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#controls_if> <http://purl.org/dc/terms/description> "if" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#void> <http://xmlns.com/foaf/0.1/primaryTopic> <http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_day> <http://purl.org/dc/terms/description> "Extracting the day from a date/time literal."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoding> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_encoding> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sub> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_contains> <http://purl.org/dc/terms/description> "Whether a string contains another string"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_not> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_not> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_replace> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_string_replace> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ucase> <http://purl.org/dc/terms/description> "Converting a string to upper case characters."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array> <http://purl.org/dc/terms/description> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://rdfs.org/ns/void#exampleResource> <http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_split> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb50 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/description> "The FnO descriptions of the GREL functions" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/_str> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/str> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_list> <http://www.w3.org/2000/01/rdf-schema#label> "list" .
+<http://example.com/idlab/function/javaFoo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/vocabulary/implementation#JavaClass> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_mqlKeyUnquote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_find> <http://www.w3.org/2000/01/rdf-schema#label> "f" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_endsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/fooFunction> <https://w3id.org/function/ontology#name> "Foo Function" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://example.com/idlab/function/readFile> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb26 .
+_:ub3bL22C25 <http://example.com/library#method> "equal" .
+<http://example.com/idlab/function/_str> <http://www.w3.org/2000/01/rdf-schema#label> "input string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_replace> <http://www.w3.org/2000/01/rdf-schema#label> "r" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#array_join> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb3 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> <https://w3id.org/function/ontology#required> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> <http://www.w3.org/2000/01/rdf-schema#label> "output string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_md5> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb55 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://example.com/idlab/function/_boolOut> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_if> <http://purl.org/dc/terms/description> "Doing an if-statement."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://example.com/idlab/function/toUpperCaseURL> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb33 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_contains> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb26 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb5 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lcase> <http://purl.org/dc/terms/description> "Converting a string to lower case characters."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/getMIMEType> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb14 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sha1> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb56 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_length> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strlen> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i_opt_to> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_length> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb16 .
+<http://example.com/idlab/function/stringContainsOtherString> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb7 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_trim> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb37 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#any_false> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Function_(mathematics)> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_not> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb8 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_indexOf> <https://w3id.org/function/ontology#name> "The indexOf problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/_from> <http://www.w3.org/2000/01/rdf-schema#label> "from" .
+<http://example.com/idlab/function/toUpperCaseURL> <http://purl.org/dc/terms/description> "Returns an uppercase, valid url." .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_if> <https://w3id.org/function/ontology#name> "The if problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/notEqual> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb4 .
+<http://example.com/idlab/function/_listOut> <https://w3id.org/function/ontology#name> "output list" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#any> .
+_:ub3bL132C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_sha1> <http://purl.org/dc/terms/description> "Calculating the SHA1 checksum."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/stringContainsOtherString> <http://purl.org/dc/terms/description> "Returns true if a string is found in a delimited string." .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> <http://www.w3.org/2000/01/rdf-schema#label> "sub" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_string_sep> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_opt_sep> <https://w3id.org/function/ontology#name> "sep" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_encode_for_uri> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_encode_for_uri> <https://w3id.org/function/ontology#name> "The encode_for_uri problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_trim> <https://w3id.org/function/ontology#name> "trim" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_length> <https://w3id.org/function/ontology#name> "length" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_any> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoder> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_encoder> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_now> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_substring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> <https://w3id.org/function/ontology#required> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_endsWith> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb21 .
+<http://example.com/idlab/function/inRange> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb32 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_or> <https://w3id.org/function/ontology#name> "The or problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/notEqual> <http://www.w3.org/2000/01/rdf-schema#label> "not equal" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> <https://w3id.org/function/ontology#name> "from" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_md5> <https://w3id.org/function/ontology#name> "md5" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_coalesce> <https://w3id.org/function/ontology#name> "The coalesce problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb31 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strstarts> <http://purl.org/dc/terms/description> "Whether a string starts another string"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> <https://w3id.org/function/ontology#name> "input value 2" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:ub3bL77C25 <http://example.com/library#method> "decide" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_xor> <http://purl.org/dc/terms/description> "xor" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb39 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_opt_sep> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_contains> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_contains> .
+<http://example.com/idlab/function/_otherStr> <https://w3id.org/function/ontology#name> "other input string" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> .
+<http://example.com/idlab/function/_endpoint> <https://w3id.org/function/ontology#name> "endpoint url string" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ub3bL33C25 <http://example.com/library#method> "notEqual" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_md5> <http://purl.org/dc/terms/description> "Calculating the md5 checksum."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://example.com/idlab/function/trueCondition> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb23 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_any> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#any> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_coalesce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/_result> <http://www.w3.org/2000/01/rdf-schema#label> "result string" .
+<http://example.com/idlab/function/stringContainsOtherString> <http://example.com/library#providedBy> _:ub3bL44C25 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb31 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_substr> <https://w3id.org/function/ontology#name> "The substr problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb52 .
+<http://example.com/idlab/function/notEqual> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb6 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/dbpediaSpotlight> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Spotlight annotate" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_replace> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> <http://www.w3.org/2000/01/rdf-schema#label> "b" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/readFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_array> <https://w3id.org/function/ontology#name> "array" .
+_:ub1bL38C26 <https://w3id.org/function/vocabulary/mapping#method-name> "fooFunction" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/equal> <http://example.com/library#providedBy> _:ub3bL22C25 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_list> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_replace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_regex> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoding> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_indexOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:ub3bL66C25 <http://example.com/library#class> "IDLabFunctions" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ub3bL99C25 <http://example.com/library#method> "trueCondition" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_regex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f2629c190f34f4f94ac3498bb25f20d5eb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://example.com/idlab/function/getMIMEType> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb15 .
+<http://example.com/idlab/function/_str> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> <http://www.w3.org/2000/01/rdf-schema#label> "input value 2" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb53 .
+<http://example.com/idlab/function/inRange> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb29 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_and> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_round> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_any_e> <http://www.w3.org/2000/01/rdf-schema#label> "e" .
+<http://example.com/idlab/function/_strBoolean> <http://www.w3.org/2000/01/rdf-schema#label> "boolean encoded as string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoding> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_indexOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/modified> "2020-01-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.com/idlab/function/listContainsElement> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb13 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_hours> <http://purl.org/dc/terms/description> "Extracting the hours from a date/time literal."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_regex> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_string_regex> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_startsWith> <https://w3id.org/function/ontology#name> "startsWith" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#any_true> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_regex> <https://w3id.org/function/ontology#name> "p" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/fooFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/_stringOut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+<http://example.com/idlab/function/random> <https://w3id.org/function/ontology#expects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> <https://w3id.org/function/ontology#name> "input value" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_rep_i> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_month> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_endpoint> .
+<https://ben.de-meester.org/#me> <http://xmlns.com/foaf/0.1/mbox> "mailto:Ben.DeMeester@UGent.be" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_any_e> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#any> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_crypto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/_stringOut> <https://w3id.org/function/ontology#name> "output string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> <http://www.w3.org/2000/01/rdf-schema#label> "number" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strlen> <http://purl.org/dc/terms/description> "Computing the length of a given input string."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> <http://www.w3.org/2000/01/rdf-schema#label> "key" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array_join> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strstarts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/listContainsElement> <http://www.w3.org/2000/01/rdf-schema#label> "listContainsElement" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_substring> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb41 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_not> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/rights> "Copyright \u00A9 Ghent University \u2013 imec \u2013 IDLab"@en .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://example.com/idlab/function/_delimiter> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/delimiter> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_bool> <http://purl.org/dc/terms/description> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub3bL121C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb46 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Function_model> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/stringContainsOtherString> <http://www.w3.org/2000/01/rdf-schema#label> "stringContainsOtherString" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_substring> <http://purl.org/dc/terms/description> "substring" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_not> <http://purl.org/dc/terms/description> "not" .
+<http://example.com/idlab/function/notEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_replace> <https://w3id.org/function/ontology#name> "The replace problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_contains> <https://w3id.org/function/ontology#name> "The contains problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#controls_if> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb12 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_not> <https://w3id.org/function/ontology#name> "not" .
+<http://example.com/idlab/function/fooFunctionMapping> <https://w3id.org/function/ontology#implementation> <http://example.com/idlab/function/javaFoo> .
+<http://example.com/idlab/function/_result> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/result> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_startsWith> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb20 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <http://purl.org/dc/terms/description> "Escapes a string, with a mode parameter." .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_any> <https://w3id.org/function/ontology#name> "any" .
+<http://example.com/idlab/function/javaFoo> <https://w3id.org/function/vocabulary/implementation#class-name> "io.fno.Foo.FooFunctions" .
+<http://example.com/idlab/function/trueCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f2629c190f34f4f94ac3498bb25f20d5eb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_replace> <https://w3id.org/function/ontology#name> "r" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<https://ben.de-meester.org/#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#o_number> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOutput> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/contributor> <https://ben.de-meester.org/#me> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_split> <http://purl.org/dc/terms/description> "split" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb30 .
+<http://example.com/idlab/function/toUpperCaseURL> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb34 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lastIndexOf> <https://w3id.org/function/ontology#name> "The lastIndexOf problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/_to> <https://w3id.org/function/ontology#name> "to" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#array_join> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:ub3bL77C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_now> <http://purl.org/dc/terms/description> "Getting the current date and time."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/fooFunction> <https://w3id.org/function/ontology#expects> _:f2629c190f34f4f94ac3498bb25f20d5eb1 .
+<http://example.com/idlab/function/notEqual> <https://w3id.org/function/ontology#name> "not equal" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> .
+<http://example.com/idlab/function/_endpoint> <http://www.w3.org/2000/01/rdf-schema#label> "endpoint url string" .
+<http://example.com/idlab/function/_strBoolean> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_not> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/dbpediaSpotlight> <https://w3id.org/function/ontology#name> "DBpedia Spotlight annotate" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_xor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/decide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_delimiter> <http://www.w3.org/2000/01/rdf-schema#label> "delimiter" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strstarts> <https://w3id.org/function/ontology#name> "The strstarts problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_regex> <https://w3id.org/function/ontology#name> "The regex problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/fooFunctionMapping> <https://w3id.org/function/ontology#methodMapping> _:ub1bL38C26 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <http://purl.org/dc/terms/description> "Returns the input with all letters in upper case." .
+<http://example.com/idlab/function/inRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/_strBoolean> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/strBoolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_bool_opt_b> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_bool_opt_b> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> <https://w3id.org/function/ontology#name> "number" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> <https://w3id.org/function/ontology#name> "bool" .
+<http://example.com/idlab/function/_expectedStr> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/expectedStr> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/equal> <http://www.w3.org/2000/01/rdf-schema#label> "equal" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:ub3bL44C25 <http://example.com/library#class> "IDLabFunctions" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_trim> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb36 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_bool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/stringContainsOtherString> <https://w3id.org/function/ontology#name> "stringContainsOtherString" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb14 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> <https://w3id.org/function/ontology#name> "key" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array_join> <http://purl.org/dc/terms/description> "Joining an array into a string."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/_test> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/p_test> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/decide> <https://w3id.org/function/ontology#name> "decide" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> <http://www.w3.org/2000/01/rdf-schema#label> "b" .
+<http://example.com/idlab/function/equal> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb1 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_replace> <http://purl.org/dc/terms/description> "Replacing each non-overlapping occurrence of a regular expression pattern with a replacement string. Regular expession matching may involve modifier flags."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_or> <https://w3id.org/function/ontology#name> "or" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> <https://w3id.org/function/ontology#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_replace> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoder> <http://www.w3.org/2000/01/rdf-schema#label> "encoder" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_xor> <https://w3id.org/function/ontology#name> "xor" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_not> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb9 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/fooFunctionMapping> <https://w3id.org/function/ontology#function> <http://example.com/idlab/function/fooFunction> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lcase> <https://w3id.org/function/ontology#name> "The lcase problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> <https://w3id.org/function/ontology#name> "output string" .
+<http://example.com/idlab/function/random> <http://www.w3.org/2000/01/rdf-schema#label> "random" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ucase> <https://w3id.org/function/ontology#name> "The ucase problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_boolOut> .
+<http://example.com/idlab/function/_boolOut> <https://w3id.org/function/ontology#name> "output boolean" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#int> .
+<http://example.com/idlab/function/getMIMEType> <http://www.w3.org/2000/01/rdf-schema#label> "getMIMEType" .
+<http://example.com/idlab/function/_expectedStr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_lastIndexOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/_to> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#double> .
+<http://example.com/idlab/function/random> <https://w3id.org/function/ontology#name> "random" .
+<http://example.com/idlab/function/fooFunction> <http://www.w3.org/2000/01/rdf-schema#label> "Foo Function" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb33 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_chomp> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb38 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_or> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/_boolOut> <http://www.w3.org/2000/01/rdf-schema#label> "output boolean" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strends> <http://purl.org/dc/terms/description> "Whether a string ends another string"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_chomp> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb40 .
+<http://example.com/idlab/function/_boolOut> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/o_boolOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_contains> <http://purl.org/dc/terms/description> "contains" .
+<http://example.com/idlab/function/listContainsElement> <https://w3id.org/function/ontology#name> "listContainsElement" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_replace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_md5> <http://purl.org/dc/terms/description> "md5" .
+<http://example.com/idlab/function/_listOut> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/listOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_array> <http://www.w3.org/2000/01/rdf-schema#label> "array" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> <http://www.w3.org/2000/01/rdf-schema#label> "a" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_year> <http://purl.org/dc/terms/description> "Extracting the year from a date/time literal."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/_listOut> <https://w3id.org/function/ontology#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_timezone> <http://purl.org/dc/terms/description> "Getting the timezone of a string."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_length> <http://purl.org/dc/terms/description> "length" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#any> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_otherStr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#controls_if> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> <https://w3id.org/function/ontology#name> "sub" .
+_:ub3bL22C25 <http://example.com/library#localLibrary> "UtilFunctions.jar" .
+<http://example.com/idlab/function/_expectedStr> <https://w3id.org/function/ontology#name> "expected input string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_length> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb17 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_rep_b> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_string> <https://w3id.org/function/ontology#name> "The string problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strlen> <https://w3id.org/function/ontology#name> "The strlen problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#array_join> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array_join> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_string> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/_otherStr> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_any> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#o_any> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb30 .
+<http://example.com/idlab/function/javaFoo> <http://usefulinc.com/ns/doap#download-page> "foo-functions-1.0-SNAPSHOT.jar" .
+<http://example.com/idlab/function/decide> <http://example.com/library#providedBy> _:ub3bL77C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_min> <http://purl.org/dc/terms/description> "Returning the smallest value of the input."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_chomp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_delimiter> .
+<http://example.com/idlab/function/_endpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/readFile> <http://www.w3.org/2000/01/rdf-schema#label> "Read local file as string" .
+<http://example.com/idlab/function/_stringOut> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:ub3bL44C25 <http://example.com/library#method> "stringContainsOtherString" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_endsWith> <http://purl.org/dc/terms/description> "endsWith" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_hours> <https://w3id.org/function/ontology#name> "The hours problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i2> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#int> .
+<http://example.com/idlab/function/_test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/_endpoint> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_timezone> <https://w3id.org/function/ontology#name> "The timezone problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_round> <http://purl.org/dc/terms/description> "Returning the number with no fractional part that is closest to the argument. If there are two such numbers, then the one that is closest to positive infinity is returned."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_toTitlecase> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb34 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i> <https://w3id.org/function/ontology#name> "d1" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_date> <http://purl.org/dc/terms/description> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_substr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> <https://w3id.org/function/ontology#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#int> .
+<http://example.com/idlab/function/stringContainsOtherString> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb10 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/listContainsElement> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb11 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/_to> <http://www.w3.org/2000/01/rdf-schema#label> "to" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_indexOf> <http://purl.org/dc/terms/description> "The index of the first occurence within a string."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://example.com/idlab/function/fooFunction> <http://purl.org/dc/terms/description> "Returns the input string attached with '-foo'" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lcase> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_chomp> <https://w3id.org/function/ontology#name> "chomp" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_bool_opt_b> <https://w3id.org/function/ontology#required> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_split> <https://w3id.org/function/ontology#name> "split" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_strBoolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <http://www.w3.org/2000/01/rdf-schema#label> "to Uppercase" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb28 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb13 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sha1> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_sha1> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_find> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://example.com/idlab/function/_test> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#double> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lastIndexOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_array> .
+<http://example.com/idlab/function/inRange> <https://w3id.org/function/ontology#name> "inRange" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+_:ub3bL55C25 <http://example.com/library#method> "listContainsElement" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_substr> <http://purl.org/dc/terms/description> "Getting the sub-string of a given string"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_day> <https://w3id.org/function/ontology#name> "The day problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/readFile> <http://purl.org/dc/terms/description> "Returns the content of a local file as string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_minutes> <http://purl.org/dc/terms/description> "Extracting the minutes from a date/time literal."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_or> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> <https://w3id.org/function/ontology#name> "b" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb2 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_opt_sep> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_opt_sep> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_endsWith> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strends> .
+<http://example.com/idlab/function/toUpperCaseURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb42 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f2629c190f34f4f94ac3498bb25f20d5eb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#number> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_timezone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/trueCondition> <http://example.com/library#providedBy> _:ub3bL99C25 .
+<http://example.com/idlab/function/_str> <https://w3id.org/function/ontology#name> "input string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_mqlKeyUnquote> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb58 .
+<http://example.com/idlab/function/dbpediaSpotlight> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb20 .
+<http://example.com/idlab/function/dbpediaSpotlight> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb22 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoder> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_fragment> <http://www.w3.org/2000/01/rdf-schema#label> "frag" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb12 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/listContainsElement> <http://example.com/library#providedBy> _:ub3bL55C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <https://w3id.org/function/ontology#name> "to Uppercase" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#array_join> <https://w3id.org/function/ontology#name> "join" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_mqlKeyUnquote> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb59 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_indexOf> <http://purl.org/dc/terms/description> "indexOf" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:ub3bL88C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i> <http://www.w3.org/2000/01/rdf-schema#label> "d1" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb19 .
+_:ub3bL121C25 <http://example.com/library#method> "random" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> <https://w3id.org/function/ontology#name> "mode value" .
+<http://example.com/idlab/function/listContainsElement> <http://purl.org/dc/terms/description> "Returns true if the string is found in the list" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_md5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_find> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_bool> <https://w3id.org/function/ontology#name> "The bool problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_contains> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb24 .
+_:ub3bL44C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_expectedStr> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/_strBoolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_lastIndexOf> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb45 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_md5> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_md5> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_fragment> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_year> <https://w3id.org/function/ontology#name> "The year problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub3bL33C25 <http://example.com/library#class> "UtilFunctions" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_startsWith> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strstarts> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/toUpperCaseURL> <http://example.com/library#providedBy> _:ub3bL164C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_rep_i> <http://www.w3.org/2000/01/rdf-schema#label> "n3" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb4 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoder> <https://w3id.org/function/ontology#name> "encoder" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_indexOf> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb27 .
+<http://example.com/idlab/function/_delimiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_round> <https://w3id.org/function/ontology#name> "The round problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_listOut> <http://www.w3.org/2000/01/rdf-schema#label> "output list" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_rep_i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> <http://www.w3.org/2000/01/rdf-schema#label> "sep" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_chomp> <http://purl.org/dc/terms/description> "chomp" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_toTitlecase> <https://w3id.org/function/ontology#name> "toTitlecase" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_lastIndexOf> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb47 .
+<http://example.com/idlab/function/getMIMEType> <https://w3id.org/function/ontology#name> "getMIMEType" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb2 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_expectedStr> .
+<http://example.com/idlab/function/random> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> <http://purl.org/dc/terms/description> "and" .
+<http://example.com/idlab/function/fooFunctionMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/vocabulary/implementation#Mapping> .
+_:ub3bL55C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_substring> <https://w3id.org/function/ontology#name> "substring" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> <https://w3id.org/function/ontology#name> "eFalse" .
+<http://example.com/idlab/function/notEqual> <http://purl.org/dc/terms/description> "Returns true if strings are not equal." .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb32 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_opt_sep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> .
+_:ub3bL66C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_endsWith> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb23 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_array_a> .
+<http://example.com/idlab/function/equal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_toTitlecase> <http://purl.org/dc/terms/description> "toTitlecase" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sha1> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb57 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_fragment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <http://www.w3.org/2000/01/rdf-schema#label> "escape" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_lastIndexOf> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lastIndexOf> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_seconds> <https://w3id.org/function/ontology#name> "The seconds problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/stringContainsOtherString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/dbpediaSpotlight> <http://example.com/library#providedBy> _:ub3bL88C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_string> <http://purl.org/dc/terms/description> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb5 .
+<http://example.com/idlab/function/equal> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb3 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> <https://w3id.org/function/ontology#name> "sep" .
+<http://example.com/idlab/function/_list> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_mathematical> <http://purl.org/dc/terms/description> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb21 .
+_:f1c9513a3756740a7afebeb3334d7eb3bb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> <https://w3id.org/function/ontology#name> "to" .
+_:ub3bL99C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://xmlns.com/foaf/0.1/homepage> <https://fno.io> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb49 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toUpperCase> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ucase> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://example.com/idlab/function/equal> <https://w3id.org/function/ontology#name> "equal" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> <http://www.w3.org/2000/01/rdf-schema#label> "eFalse" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb9 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_mathematical> <https://w3id.org/function/ontology#name> "The mathematical problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_array> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i2> <http://www.w3.org/2000/01/rdf-schema#label> "d2" .
+<http://example.com/idlab/function/_list> <https://w3id.org/function/ontology#name> "list" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <http://www.w3.org/2000/01/rdf-schema#label> "to Lowercase" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#o_bool> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb8 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_not> <https://w3id.org/function/ontology#name> "The not problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub3bL22C25 <http://example.com/library#class> "UtilFunctions" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_xor> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb10 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> <https://w3id.org/function/ontology#name> "b" .
+_:ub3bL110C25 <http://example.com/library#method> "readFile" .
+<http://example.com/idlab/function/_path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/_to> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/p_to> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_split> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_or> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_or> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_bool_opt_b> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_test> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_max> <https://w3id.org/function/ontology#name> "The max problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> <https://w3id.org/function/ontology#name> "a" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_fragment> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_any> <http://www.w3.org/2000/01/rdf-schema#label> "any" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_bool_opt_b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/random> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb28 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_startsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_opt_sep> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_substring> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb44 .
+_:ub3bL164C25 <http://example.com/library#method> "toUpperCaseURL" .
+<http://example.com/idlab/function/trueCondition> <https://w3id.org/function/ontology#name> "True condition" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_md5> <https://w3id.org/function/ontology#name> "The md5 problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ucase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:ub3bL88C25 <http://example.com/library#class> "IDLabFunctions" .
+_:ub3bL132C25 <http://example.com/library#class> "IDLabFunctions" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb51 .
+_:ub3bL99C25 <http://example.com/library#class> "IDLabFunctions" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sep> .
+<http://example.com/idlab/function/_delimiter> <https://w3id.org/function/ontology#name> "delimiter" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_minutes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_mqlKeyUnquote> <https://w3id.org/function/ontology#name> "mqlKeyUnquote" .
+_:ub3bL132C25 <http://example.com/library#method> "inRange" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_any> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lastIndexOf> <http://purl.org/dc/terms/description> "Retrieving the last index of an occurrence in a string."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoder> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/toUpperCaseURL> <http://www.w3.org/2000/01/rdf-schema#label> "toUpperCaseURL" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_startsWith> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb18 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_key> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/title> "GREL Fno Descriptions"@en .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sha1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/_path> <http://www.w3.org/2000/01/rdf-schema#label> "input path" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_indexOf> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb29 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#controls_if> <https://w3id.org/function/ontology#name> "if" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_path> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#array_join> <http://purl.org/dc/terms/description> "join" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> .
+<http://example.com/idlab/function/fooFunction> <https://w3id.org/function/ontology#returns> _:f2629c190f34f4f94ac3498bb25f20d5eb2 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sha1> <https://w3id.org/function/ontology#name> "sha1" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_date> <https://w3id.org/function/ontology#name> "The date problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb24 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_key> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ceil> <https://w3id.org/function/ontology#name> "The ceil problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_result> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_xor> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb11 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_find> <https://w3id.org/function/ontology#name> "f" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_or> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb7 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_or> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb6 .
+<http://example.com/idlab/function/toUpperCaseURL> <https://w3id.org/function/ontology#name> "toUpperCaseURL" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb25 .
+_:ub3bL55C25 <http://example.com/library#class> "IDLabFunctions" .
+<http://example.com/idlab/function/_test> <https://w3id.org/function/ontology#name> "test" .
+<http://example.com/idlab/function/_path> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_floor> <http://purl.org/dc/terms/description> "Returning the largest (closest to positive infinity) number with no fractional part that is not greater than the given value."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_from> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_opt_sep> <http://www.w3.org/2000/01/rdf-schema#label> "sep" .
+<http://example.com/idlab/function/trueCondition> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb25 .
+_:ub3bL110C25 <http://example.com/library#class> "IDLabFunctions" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_seconds> <http://purl.org/dc/terms/description> "Extracting the seconds from a date/time literal."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_trim> <http://purl.org/dc/terms/description> "trim" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_lastIndexOf> <https://w3id.org/function/ontology#name> "lastIndexOf" .
+<http://example.com/idlab/function/_path> <https://w3id.org/function/ontology#name> "input path" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_b> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i_from> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_regex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_fragment> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_fragment> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_minutes> <https://w3id.org/function/ontology#name> "The minutes problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ceil> <http://purl.org/dc/terms/description> "Returning the smallest (closest to negative infinity) number with no fractional part that is not less than the value of arg."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/_boolOut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array> <https://w3id.org/function/ontology#name> "The array problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/notEqual> <http://example.com/library#providedBy> _:ub3bL33C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_array> <https://w3id.org/function/ontology#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://example.com/idlab/function/_path> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/path> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_substring> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_substr> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_and> <https://w3id.org/function/ontology#name> "The and problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_find> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_string_find> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://example.com/idlab/function/readFile> <http://example.com/library#providedBy> _:ub3bL110C25 .
+<http://example.com/idlab/function/_otherStr> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/otherStr> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb43 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <https://w3id.org/function/ontology#name> "to Lowercase" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_lcase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://purl.org/dc/terms/issued> "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_and> <http://purl.org/dc/terms/description> "Returning the logical AND between two (boolean) operands."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_split> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb48 .
+<http://example.com/idlab/function/_test> <http://www.w3.org/2000/01/rdf-schema#label> "test" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f0fe44cae9a6b4d3e98ecd269a60746ebb22 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_contains> <https://w3id.org/function/ontology#name> "contains" .
+<http://example.com/idlab/function/_from> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#double> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_month> <https://w3id.org/function/ontology#name> "The month problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_any_e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#void> <http://purl.org/dc/terms/creator> <https://ben.de-meester.org/#me> .
+<http://example.com/idlab/function/random> <http://example.com/library#providedBy> _:ub3bL121C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i2> <https://w3id.org/function/ontology#name> "d2" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_md5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/readFile> <https://w3id.org/function/ontology#name> "Read local file as string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_rep_i> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_or> <http://purl.org/dc/terms/description> "or" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_array> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#o_array> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_encode_for_uri> <http://purl.org/dc/terms/description> "encoding for a URI"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_any_e> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_any_e> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_sha1> <http://purl.org/dc/terms/description> "sha1" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb18 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_rep_i> <https://w3id.org/function/ontology#name> "n3" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://example.com/idlab/function/_expectedStr> <http://www.w3.org/2000/01/rdf-schema#label> "expected input string" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#int> .
+<http://example.com/idlab/function/_str> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_if> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#bool_array_b> .
+_:ub3bL164C25 <http://example.com/library#class> "IDLabFunctions" .
+<http://example.com/idlab/function/inRange> <http://www.w3.org/2000/01/rdf-schema#label> "in range" .
+<http://example.com/idlab/function/getMIMEType> <http://purl.org/dc/terms/description> "Returns the MIME Type of a filename" .
+<http://example.com/idlab/function/_stringOut> <http://www.w3.org/2000/01/rdf-schema#label> "output string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_endsWith> <https://w3id.org/function/ontology#name> "endsWith" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_indexOf> <https://w3id.org/function/ontology#name> "indexOf" .
+<http://example.com/idlab/function/_list> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/list> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_bool_opt_b> <http://www.w3.org/2000/01/rdf-schema#label> "b?" .
+<http://example.com/idlab/function/dbpediaSpotlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_sha1> <https://w3id.org/function/ontology#name> "The sha1 problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_toTitlecase> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb35 .
+<http://example.com/idlab/function/readFile> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb27 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_min> <https://w3id.org/function/ontology#name> "The min problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#void> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> .
+<http://example.com/idlab/function/_stringOut> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_floor> <https://w3id.org/function/ontology#name> "The floor problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_number> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_crypto> <http://purl.org/dc/terms/description> ""^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_toTitlecase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_to> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_find> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/inRange> <http://purl.org/dc/terms/description> "Returns whether a value is in range" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://rdfs.org/ns/void#vocabulary> <https://w3id.org/function/ontology#> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_b> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_coalesce> <http://purl.org/dc/terms/description> "Returning the first bound argument."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_opt_to> <http://www.w3.org/2000/01/rdf-schema#label> "to" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#void> <http://purl.org/dc/terms/title> "A VoID Description of the GREL Fno Descriptions Dataset" .
+_:ub3bL66C25 <http://example.com/library#method> "getMIMEType" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_seconds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParameter> .
+_:ub3bL164C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_fragment> <https://w3id.org/function/ontology#name> "frag" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#escape> <https://w3id.org/function/ontology#name> "escape" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_mathematical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_a> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i2> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://example.com/idlab/function/_from> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/p_from> .
+<http://example.com/idlab/function/equal> <http://purl.org/dc/terms/description> "Returns true if strings are equal." .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#boolean_and> <https://w3id.org/function/ontology#name> "and" .
+<http://example.com/idlab/function/_listOut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#modeParam> <http://www.w3.org/2000/01/rdf-schema#label> "mode value" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> <http://www.w3.org/2000/01/rdf-schema#label> "bool" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_sha1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_rep_i> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_rep_i> .
+<http://example.com/idlab/function/_delimiter> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#param_string_sub> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_max> <http://purl.org/dc/terms/description> "Returning the largest value of the input."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_mqlKeyUnquote> <http://purl.org/dc/terms/description> "mqlKeyUnquote" .
+<http://example.com/idlab/function/decide> <https://w3id.org/function/ontology#returns> _:f1c9513a3756740a7afebeb3334d7eb3bb19 .
+<http://example.com/idlab/function/_otherStr> <http://www.w3.org/2000/01/rdf-schema#label> "other input string" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_not> <http://purl.org/dc/terms/description> "Returning the boolean negation of the argument."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+<http://example.com/idlab/function/decide> <http://www.w3.org/2000/01/rdf-schema#label> "decide" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_month> <http://purl.org/dc/terms/description> "Extracting the month from a date/time literal."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_any_e> <https://w3id.org/function/ontology#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_otherStr> .
+<http://example.com/idlab/function/_endpoint> <https://w3id.org/function/ontology#predicate> <http://example.com/idlab/function/endpoint> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_md5> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb54 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_any_e> <https://w3id.org/function/ontology#name> "e" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_trim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#dataset> <http://creativecommons.org/ns#license> <http://creativecommons.org/license/by/3.0/> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Output> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/decide> <https://w3id.org/function/ontology#expects> _:f1c9513a3756740a7afebeb3334d7eb3bb16 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_bool_opt_b> <https://w3id.org/function/ontology#name> "b?" .
+<http://example.com/idlab/function/inRange> <http://example.com/library#providedBy> _:ub3bL132C25 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_strends> <https://w3id.org/function/ontology#name> "The strends problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i_from> <http://www.w3.org/2000/01/rdf-schema#label> "from" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParamtring_encoding> <http://www.w3.org/2000/01/rdf-schema#label> "encoding" .
+<http://example.com/idlab/function/getMIMEType> <http://example.com/library#providedBy> _:ub3bL66C25 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_array_join> <https://w3id.org/function/ontology#name> "The array join problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub3bL88C25 <http://example.com/library#method> "dbpediaSpotlight" .
+_:ub3bL121C25 <http://example.com/library#class> "IDLabFunctions" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_regex> <http://www.w3.org/2000/01/rdf-schema#label> "p" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/trueCondition> <http://purl.org/dc/terms/description> "Returns the value if the given boolean is true, else null" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://example.com/idlab/function/getMIMEType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> <https://w3id.org/function/ontology#name> "eTrue" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_startsWith> <http://purl.org/dc/terms/description> "startsWith" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://example.com/idlab/function/_strBoolean> <https://w3id.org/function/ontology#name> "boolean encoded as string" .
+_:ub3bL77C25 <http://example.com/library#class> "IDLabFunctions" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:ub3bL110C25 <http://example.com/library#localLibrary> "IDLabFunctions.jar" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+<http://example.com/idlab/function/decide> <http://purl.org/dc/terms/description> "Returns a given value if input is equal to another given value" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1c9513a3756740a7afebeb3334d7eb3bb17 .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParameter2> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_regex> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParameter> .
+_:ub3bL33C25 <http://example.com/library#localLibrary> "UtilFunctions.jar" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_true> <http://www.w3.org/2000/01/rdf-schema#label> "eTrue" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_crypto> <https://w3id.org/function/ontology#name> "The crypto problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_regex> <http://purl.org/dc/terms/description> "Returning true if a string (?arg1) matches the regular expression supplied as a pattern (?arg2) as influenced by the value of flags (?arg3), otherwise returns false."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_now> <https://w3id.org/function/ontology#name> "The now problem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://ben.de-meester.org/#me> <http://xmlns.com/foaf/0.1/name> "Ben De Meester"@en .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#array_join> <https://w3id.org/function/ontology#expects> _:f0fe44cae9a6b4d3e98ecd269a60746ebb1 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> <http://www.w3.org/2000/01/rdf-schema#label> "input value" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_int_i2> <https://w3id.org/function/ontology#predicate> <http://users.ugent.be/~bjdmeest/function/grel.ttl#p_int_i2> .
+<http://example.com/idlab/function/trueCondition> <http://www.w3.org/2000/01/rdf-schema#label> "True condition" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#output_bool> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_or> <http://purl.org/dc/terms/description> "Returning the logical OR between two (boolean) operands."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://example.com/idlab/function/_from> <https://w3id.org/function/ontology#name> "from" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_lastIndexOf> <http://purl.org/dc/terms/description> "lastIndexOf" .
+_:f1c9513a3756740a7afebeb3334d7eb3bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#valueParam2> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ub1bL38C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/vocabulary/mapping#StringMethodMapping> .
+<http://example.com/idlab/function/_list> <https://w3id.org/function/ontology#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:f1c9513a3756740a7afebeb3334d7eb3bb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_stringOut> .
+<http://example.com/idlab/function/_result> <https://w3id.org/function/ontology#type> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.com/idlab/function/listContainsElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Function> .
+<http://example.com/idlab/function/random> <http://purl.org/dc/terms/description> "Returns a random uuid." .
+<http://example.com/idlab/function/_result> <https://w3id.org/function/ontology#name> "result string" .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://users.ugent.be/~bjdmeest/function/grel.ttl#stringOut> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#string_indexOf> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_indexOf> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_encode_for_uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#toLowerCase> <http://purl.org/dc/terms/description> "Returns the input with all letters in lower case." .
+_:f1c9513a3756740a7afebeb3334d7eb3bb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://example.com/idlab/function/_str> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#controls_if> <https://w3id.org/function/ontology#solves> <http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_if> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+<http://example.com/idlab/function/dbpediaSpotlight> <http://purl.org/dc/terms/description> "Returns the DBpedia URLs of the detected entities in the input text" .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#param_false> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Parameter> .
+_:f0fe44cae9a6b4d3e98ecd269a60746ebb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#controls_if> <https://w3id.org/function/ontology#returns> _:f0fe44cae9a6b4d3e98ecd269a60746ebb15 .
+<http://users.ugent.be/~bjdmeest/function/grel.ttl#prob_ceil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/function/ontology#Problem> .
+
