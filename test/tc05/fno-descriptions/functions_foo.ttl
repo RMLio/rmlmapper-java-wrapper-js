@@ -1,0 +1,55 @@
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix fno:      <https://w3id.org/function/ontology#> .
+@prefix fnoi:    <https://w3id.org/function/vocabulary/implementation#> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
+@prefix fnom:    <https://w3id.org/function/vocabulary/mapping#> .
+
+@prefix grel:     <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix lib:      <http://example.com/library#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix :         <http://example.com/idlab/functions/string/> .
+
+##########################
+### Foo      Functions ###
+##########################
+
+idlab-fn:fooFunction
+    a                   fno:Function ; 
+    fno:name            "Foo Function" ;
+    rdfs:label          "Foo Function" ;
+    dcterms:description "Returns the input string attached with '-foo'" ;
+    fno:expects         ( idlab-fn:_str ) ;
+    fno:returns         ( idlab-fn:_stringOut ) ;
+    .
+
+idlab-fn:javaFoo
+    a                  fnoi:JavaClass ;
+    doap:download-page "./test/tc05/foo-functions-1.0-SNAPSHOT.jar" ;
+    fnoi:class-name    "io.fno.Foo.FooFunctions" .
+
+
+idlab-fn:fooFunctionMapping
+    a                    fnoi:Mapping ;
+    fno:function         idlab-fn:fooFunction ;
+    fno:implementation   idlab-fn:javaFoo ;
+    fno:methodMapping    [ a                fnom:StringMethodMapping ;
+                           fnom:method-name "fooFunction" ] .
+
+idlab-fn:_str
+    a             fno:Parameter ;
+    fno:name      "input string" ;
+    rdfs:label    "input string" ;
+    fno:type      xsd:string ;
+    fno:predicate idlab-fn:str .
+
+idlab-fn:_stringOut
+    a             fno:Output ;
+    fno:name      "output string" ;
+    rdfs:label    "output string" ;
+    fno:type      xsd:string ;
+    fno:predicate idlab-fn:stringOut .
+
