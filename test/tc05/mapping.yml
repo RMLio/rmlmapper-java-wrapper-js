@@ -1,0 +1,38 @@
+prefixes:
+  idlab-fn: "http://example.com/idlab/function/"
+  dcterms: "http://purl.org/dc/terms/"
+  http: "http://www.w3.org/2011/http#"
+  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"  
+  owl: "http://www.w3.org/2002/07/owl#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  ex: "http://example.org/ns#"
+
+
+mappings:
+
+  myMapping:
+    sources:
+      - access: "message.json"
+        referenceFormulation: jsonpath
+        iterator: "$.[*]"
+    s: ex:tweet_$(status.id_str)
+    condition:
+      function: grel:string_contains
+      parameters:
+        - [grel:valueParameter, "$(warc-header.warc-type)_$(warc-header.warc-target-uri)"]
+        - [grel:string_sub, "response_https://api.twitter.com/1.1/users/show.json"]
+    po:
+      - [a, ex:Tweet]
+      - p: ex:foo
+        o:
+          function: idlab-fn:fooFunction
+          parameters:
+            - [idlab-fn:str, $(status.full_text)]
+        condition:
+          function: idlab-fn:notEqual
+          parameters:
+            - [grel:valueParameter, $(status.full_text)]
+            - [grel:valueParameter2, ""]
+
+
+ 
