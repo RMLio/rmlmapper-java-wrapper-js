@@ -184,6 +184,40 @@ describe('Success', function() {
         done();
       }
     });
+  });
 
+  it('Single target', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc06/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc06/student.csv', 'utf-8')
+    };
+
+    let result = await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
+    assert.deepStrictEqual(result.output.stdout, []);
+
+    result = await strToQuads(result.output['dump1.nt']);
+
+    const expected = await strToQuads(fs.readFileSync('./test/tc06/output.nq', 'utf-8'));
+    assert.ok(isomorphic(result, expected));
+  });
+
+  it('Two targets', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc07/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc07/student.csv', 'utf-8')
+    };
+
+    let result = await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
+    assert.deepStrictEqual(result.output.stdout, []);
+
+    const result1 = await strToQuads(result.output['dump1.nt']);
+    const expected1 = await strToQuads(fs.readFileSync('./test/tc07/output-1.nq', 'utf-8'));
+    assert.ok(isomorphic(result1, expected1));
+
+    const result2 = await strToQuads(result.output['dump2.nt']);
+    const expected2 = await strToQuads(fs.readFileSync('./test/tc07/output-2.nq', 'utf-8'));
+    assert.ok(isomorphic(result2, expected2));
   });
 });
