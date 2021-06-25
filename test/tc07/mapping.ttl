@@ -37,15 +37,15 @@
 
 
     rr:predicateObjectMap [
-          rml:logicalTarget [
-                                a rmlt:LogicalTarget;
-                                rmlt:target [a void:Dataset ;
-                                             void:dataDump <file://./dump2.nt>];
-                                rmlt:serialization formats:N-Triples
-                            ];
           rr:predicate ex:number;
           rr:objectMap [
-                                rml:reference "number"
+                                rml:reference "number";
+                                    rml:logicalTarget [
+                                                          a rmlt:LogicalTarget;
+                                                          rmlt:target [a void:Dataset ;
+                                                                       void:dataDump <file://./dump2.nt>];
+                                                          rmlt:serialization formats:N-Triples
+                                                      ]
                             ]
       ].
 
