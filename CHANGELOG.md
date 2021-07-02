@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## [2.0.1] - 2021-07-02
+
 ### Addedd
 - DCAT Target support
 
@@ -82,6 +84,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Make wrapper available via require.
 
+[2.0.1]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v1.2.0...v2.0.0
 [1.2.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v1.1.0...v1.1.1
