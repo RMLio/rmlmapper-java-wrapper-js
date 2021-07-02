@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Addedd
+- DCAT Target support
+
+### Fixed
+- DCAT and VoID Datasets expect an IRI for {dcat, void}:dataDump
+
 ## [2.0.0] - 2021-06-28
 
 ### Added
