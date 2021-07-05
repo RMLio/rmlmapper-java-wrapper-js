@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [2.0.1] - 2021-07-02
 
-### Addedd
+### Added
 - DCAT Target support
 
 ### Fixed
