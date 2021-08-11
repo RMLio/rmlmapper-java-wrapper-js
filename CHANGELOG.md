@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Fixed
+- Bug causing invalid paths in RML on windows
+
 ## [2.0.1] - 2021-07-02
 
 ### Added
