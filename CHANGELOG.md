@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - Bug causing invalid paths in RML on windows
+- Better error handling when stderr is non-empty but also doesn't contain errors
 
 ## [2.0.1] - 2021-07-02
 
