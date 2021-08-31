@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## [2.0.2] - 2021-08-31
+
 ### Fixed
 - Bug causing invalid paths in RML on windows
 
@@ -87,6 +89,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Make wrapper available via require.
 
+[2.0.2]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v1.2.0...v2.0.0
 [1.2.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v1.1.1...v1.2.0
