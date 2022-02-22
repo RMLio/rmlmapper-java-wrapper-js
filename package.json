@@ -1,6 +1,6 @@
 {
   "name": "@rmlio/rmlmapper-java-wrapper",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A JavaScript wrapper around the Java RMLMapper.",
   "main": "index.js",
   "scripts": {
