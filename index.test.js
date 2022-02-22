@@ -220,4 +220,20 @@ describe('Success', function() {
     const expected2 = await strToQuads(fs.readFileSync('./test/tc07/output-2.nq', 'utf-8'));
     assert.ok(isomorphic(result2, expected2));
   });
+
+  it('Data source in subdirectory', async () => {
+    // GIVEN a wrapper and a simple CSV mapping generating one quad
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc08/mapping.ttl', 'utf-8');
+    const sources = {
+      './data/student.csv': fs.readFileSync('./test/tc08/data/student.csv', 'utf-8')
+    };
+
+    // WHEN generating the quads without the metadata and expected the results to by an array of quads
+    const result = await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
+
+    // THEN the mapping should succeed and the output should match one of the file
+    const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
+    assert.ok(isomorphic(result.output, expected));
+  });
 });

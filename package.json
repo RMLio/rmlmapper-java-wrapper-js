@@ -17,7 +17,8 @@
     "follow-redirects": "^1.7.0",
     "fs-extra": "^7.0.1",
     "n3": "^1.9.0",
-    "rdf-isomorphic": "^1.1.0"
+    "rdf-isomorphic": "^1.1.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "mocha": "^6.2.2"
