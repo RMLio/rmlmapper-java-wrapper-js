@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Added
+- Optional parameters to specify where state will be kept and for how long.
+  Some functions used by RMLMapper keep state.
+
 ## [2.0.3] - 2022-02-22
 
 ### Fixed
