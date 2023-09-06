@@ -135,7 +135,7 @@ describe('Success', function() {
 
   it('Add Java VM options', done => {
     // GIVEN a wrapper and a simple CSV mapping generating one quad
-    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true, {'Dfile.encoding': 'UTF-8'});
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true,undefined, undefined, {'Dfile.encoding': 'UTF-8'});
     const rml = fs.readFileSync('./test/tc04/mapping.ttl', 'utf-8');
     const parser = new N3.Parser();
     const rmlQuads = [];
@@ -235,5 +235,29 @@ describe('Success', function() {
     // THEN the mapping should succeed and the output should match one of the file
     const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
     assert.ok(isomorphic(result.output, expected));
+  });
+
+  it('Configure function state ID', async () => {
+    const stateFolder = tempFolderPath + '/fstate';
+    const wrapper = new RMLMapperWrapper(
+        rmlmapperPath,
+        tempFolderPath,
+        false,
+        stateFolder,
+        300);
+
+    const rml = fs.readFileSync('./test/functionstate/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/functionstate/student.csv', 'utf-8')
+    };
+
+    await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
+
+    // now check if state dir exists
+    fs.exists(stateFolder, (exists)=>{assert.ok(exists)});
+
+    // remove tem folder
+    fs.rm(tempFolderPath, {recursive: true});
+
   });
 });

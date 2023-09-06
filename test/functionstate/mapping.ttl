@@ -1,0 +1,45 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ex: <http://example.org/> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@base <http://example.com/base/> .
+
+<TriplesMap1>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source "student.csv";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    fnml:functionValue [
+      rr:predicateObjectMap [
+        rr:predicate fno:executes ;
+        rr:objectMap [ rr:constant idlab-fn:generateUniqueIRI ] ] ;
+      rr:predicateObjectMap [
+        rr:predicate idlab-fn:iri ;
+        rr:objectMap [ rr:template "http://example.org/{Id}" ;
+                       rr:termType rr:IRI ] ] ;
+      rr:predicateObjectMap [
+         rr:predicate idlab-fn:watchedProperty ;
+         rr:objectMap [ rr:constant "Id={Id}&Name={Name}" ] ]
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate foaf:name;
+    rr:objectMap [
+      rml:reference "Name"
+    ]
+  ].
