@@ -237,27 +237,35 @@ describe('Success', function() {
     assert.ok(isomorphic(result.output, expected));
   });
 
-  it('Configure function state ID', async () => {
+  it('Configure function state ID and test state', async () => {
     const stateFolder = tempFolderPath + '/fstate';
     const wrapper = new RMLMapperWrapper(
         rmlmapperPath,
         tempFolderPath,
         false,
         stateFolder,
-        300);
+        60);
 
     const rml = fs.readFileSync('./test/functionstate/mapping.ttl', 'utf-8');
-    const sources = {
+    const sources1 = {
+      'student.csv': fs.readFileSync('./test/functionstate/student.csv', 'utf-8')
+    };
+    const sources2 = {
       'student.csv': fs.readFileSync('./test/functionstate/student.csv', 'utf-8')
     };
 
-    await wrapper.execute(rml, {sources, generateMetadata: false, asQuads: true});
+    // Do a first run.
+    const result1 = await wrapper.execute(rml, {sources: sources1, generateMetadata: false, asQuads: true, functionStateId: 'test state id'});
+    const expected1 = await strToQuads(fs.readFileSync('./test/functionstate/output1.nq', 'utf-8'));
+    assert.ok(isomorphic(result1.output, expected1));
 
-    // now check if state dir exists
-    fs.exists(stateFolder, (exists)=>{assert.ok(exists)});
+    // Do a second run. The result should be empty, because the function used in the mappings
+    // only produces an IRI when it is not produced before.
+    const result2 = await wrapper.execute(rml, {sources: sources2, generateMetadata: false, asQuads: false, functionStateId: 'test state id'});
+    assert.equal(result2.output, '');
 
-    // remove tem folder
-    fs.rm(tempFolderPath, {recursive: true});
+    // remove temp folder
+    fs.rm(tempFolderPath, {recursive: true}, () => {});
 
   });
 });
