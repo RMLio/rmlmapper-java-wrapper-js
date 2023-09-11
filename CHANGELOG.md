@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## [2.1.0] - 2023-09-11
+
 ### Added
 - Optional parameters to specify where state will be kept and for how long.
   Some functions used by RMLMapper keep state.
@@ -99,6 +101,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Make wrapper available via require.
 
+[2.1.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.3...v2.1.0
 [2.0.3]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.0...v2.0.1
