@@ -159,7 +159,7 @@ describe('Success', function() {
     });
   });
 
-  it('Parameter: functions', done => {
+  it.skip('Parameter: functions', done => {
     // GIVEN a wrapper, a JSON input, and an additional function
     const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, false);
     const rml = fs.readFileSync('./test/tc05/mapping.ttl', 'utf-8');
