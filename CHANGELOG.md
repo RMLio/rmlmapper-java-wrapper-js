@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+### Fixed
+- Updated dependencies. The update of `fs-extra` fixes a bug when removing a file or directory with `rm(path, options)`.
+
 ## [2.1.0] - 2023-09-11
 
 ### Added
