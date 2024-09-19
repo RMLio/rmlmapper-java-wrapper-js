@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## [2.1.2] - 2024-09-19
+
 ### Fixed
 - Added a random number to the generated temporary process path to reduce the chance of collisions when more than one call happens in a millisecond.
 - Fixed the 'Invalid mapping' test which checked for an old error message of RMLMapper.
@@ -110,6 +112,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Make wrapper available via require.
 
+[2.1.2]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.1.1...v2.1.2
 [2.1.1]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.3...v2.1.0
 [2.0.3]: https://github.com/RMLio/rmlmapper-java-wrapper-js/compare/v2.0.2...v2.0.3
