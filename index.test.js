@@ -66,7 +66,7 @@ describe('Success', function() {
 
     assert.strictEqual(error === null, false);
     assert.strictEqual(error.message, `Error while executing the rules.`);
-    assert.strictEqual(error.log.indexOf('No Triples Maps found.') !== -1, true);
+    assert.strictEqual(error.log.indexOf('Mapping requires at least one TriplesMap') !== -1, true);
   });
 
   it('Serialization: JSON-LD', async () => {
