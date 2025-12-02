@@ -237,6 +237,57 @@ describe('Success', function() {
     assert.ok(isomorphic(result.output, expected));
   });
 
+  it('Simple CSV mapping RMLKGC', async () => {
+    // GIVEN a wrapper and a simple CSV mapping generating one quad, RMLKGC
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc01/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc01/student.csv', 'utf-8')
+    };
+
+    // WHEN generating the quads without the metadata and expected the results to by an array of quads
+    const result = await wrapper.execute(rml, { sources, generateMetadata: false, asQuads: true });
+
+    // THEN the mapping should succeed and the output should match one of the file
+    const expected = await strToQuads(fs.readFileSync('./test/tc01/output.nq', 'utf-8'));
+    assert.ok(isomorphic(result.output, expected));
+  });
+
+  it('Single target RMLKGC', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc10/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc10/student.csv', 'utf-8')
+    };
+
+    let result = await wrapper.execute(rml, { sources, generateMetadata: false, asQuads: true });
+    assert.deepStrictEqual(result.output.stdout, []);
+
+    result = await strToQuads(result.output['dump1.nt']);
+
+    const expected = await strToQuads(fs.readFileSync('./test/tc10/output.nq', 'utf-8'));
+    assert.ok(isomorphic(result, expected));
+  });
+
+  it('Two targets RMLKGC', async () => {
+    const wrapper = new RMLMapperWrapper(rmlmapperPath, tempFolderPath, true);
+    const rml = fs.readFileSync('./test/tc11/mapping.ttl', 'utf-8');
+    const sources = {
+      'student.csv': fs.readFileSync('./test/tc11/student.csv', 'utf-8')
+    };
+
+    let result = await wrapper.execute(rml, { sources, generateMetadata: false, asQuads: true });
+    assert.deepStrictEqual(result.output.stdout, []);
+
+    const result1 = await strToQuads(result.output['dump1.nt']);
+    const expected1 = await strToQuads(fs.readFileSync('./test/tc11/output-1.nq', 'utf-8'));
+    assert.ok(isomorphic(result1, expected1));
+
+    const result2 = await strToQuads(result.output['dump2.nt']);
+    const expected2 = await strToQuads(fs.readFileSync('./test/tc11/output-2.nq', 'utf-8'));
+    assert.ok(isomorphic(result2, expected2));
+  });
+
   it('Configure function state ID and test state', async () => {
     const stateFolder = tempFolderPath + '/fstate';
     const wrapper = new RMLMapperWrapper(

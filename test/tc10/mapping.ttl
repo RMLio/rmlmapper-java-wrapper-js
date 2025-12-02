@@ -1,0 +1,40 @@
+@prefix rml: <http://w3id.org/rml/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix formats: <http://www.w3.org/ns/formats/> .
+
+@base <http://example.com/base/> .
+
+<TriplesMap1>
+  a rml:TriplesMap;
+
+  rml:logicalSource [
+    rml:source [
+      a rml:FilePath;
+      rml:path "student.csv";
+    ];
+    rml:referenceFormulation rml:CSV
+  ];
+
+  rml:subjectMap [
+    rml:template "http://example.com/{Name}";
+    rml:logicalTarget [
+      a rml:LogicalTarget;
+      rml:target [
+        a void:Dataset ;
+        void:dataDump <file://./dump1.nt>
+        ];
+      rml:serialization formats:N-Triples
+    ];
+  ];
+
+  rml:predicateObjectMap [
+    rml:predicate foaf:name;
+    rml:objectMap [
+      rml:reference "Name"
+    ]
+  ].
+
+
