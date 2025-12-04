@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
-- Added support for [RMLKGC](https://kg-construct.github.io/rml-resources/portal/)
+- Added support for [RMLKGC](https://kg-construct.github.io/rml-resources/portal/).
+- Added support for [BURP][BURP](https://github.com/kg-construct/BURP).
 
 ## [2.1.2] - 2024-09-19
 
