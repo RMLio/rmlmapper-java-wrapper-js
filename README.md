@@ -10,6 +10,7 @@ Martin added support for the [BURP](https://github.com/kg-construct/BURP) mappin
 Note that this additional support is compliant with the original support of the RMLMapper mapping engine.
 This is a lazy hack, in order to avoid duplicating this entire repo for the sake of BURP.
 Search for `burpMode` to find the changed code.
+There are not tests for this burpMode.
 
 ## Requirements
 - Node.js
